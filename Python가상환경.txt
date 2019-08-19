@@ -1,0 +1,21 @@
+* pip 삭제시 복구방법
+  <Python 설치 디렉터리>\Scripts\easy_install-3.x pip
+
+
+Python Virtual Environmont
+
+생성명령 : python -m venv 가상환경이 생성될 디렉터리 경로\가상환경이름
+
+가상환경실행(활성화) : activate.bat를 실행(활성화)
+		가상환경설치디렉터리\Scripts\activate.bat
+
+		예> c:\Py-Venv>f-env\Scripts\activate.bat
+
+가상환경종료 : deactivate.bat를 실행
+		가상환경설치디렉터리\Scripts\deactivate.bat
+
+		예> (f-env)c:\Py-Venv>f-env\Scripts\deactivate.bat
+
+* 가상환경 경로나 이름이 변경될 때는 activate.bat 파일내의 
+  'VIRTUAL_ENV' 환경변수 내용을 변경한다.
+  
